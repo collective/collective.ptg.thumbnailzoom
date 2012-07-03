@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ptg.thumbnailzoom">
+
+    <browser:resourceDirectory
+        name="ptg.thumbnailzoom"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".IThumbnailzoomDisplaySettings"
+        factory=".ThumbnailzoomSettings" />
+
+    <browser:page 
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-thumbnailzoom"
+        class=".ThumbnailzoomDisplayType"
+        template="thumbnailzoom.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".ThumbnailzoomDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-thumbnailzoom" />
+
+</configure>
