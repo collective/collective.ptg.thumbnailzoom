@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.plonetruegallery\n"
+"POT-Creation-Date: 2012-07-10 13:39+0000\n"
+"PO-Revision-Date: 2012-06-19 09:36+0100\n"
+"Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
+"Language-Team: eu <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"X-Poedit-Language: Basque\n"
+
+#. Default: "Number of thumbs before a forced new row (use a high number if you dont want this)"
+#: ./__init__.py:12
+msgid "label_thumbnailzoom_columns"
+msgstr ""
+
+#. Default: "Thumbnailzoom"
+#: ./__init__.py:35
+msgid "label_thumbnailzoom_display_type"
+msgstr ""
+
+#. Default: "Pixels to zoom when mouse over"
+#: ./__init__.py:18
+msgid "label_thumbnailzoom_increase"
+msgstr ""
+
+#. Default: "Use Image size instead of Thumbnail size"
+#: ./__init__.py:27
+msgid "label_thumbnailzoom_use_images"
+msgstr ""
+
+#. Default: "How long time the effect takes"
+#: ./__init__.py:22
+msgid "label_thumbnaizoom_effectduration"
+msgstr ""
+

@@ -1,10 +1,11 @@
+from zope.i18nmessageid import MessageFactory
 from collective.plonetruegallery.utils import createSettingsFactory
-from collective.plonetruegallery import PTGMessageFactory as _
 from collective.plonetruegallery.browser.views.display import \
     BatchingDisplayType
 from collective.plonetruegallery.interfaces import IBaseSettings
 from zope import schema
 
+_ = MessageFactory('collective.ptg.thumbnailzoom')
 
 class IThumbnailzoomDisplaySettings(IBaseSettings):
     thumbnailzoom_columns = schema.Int(
