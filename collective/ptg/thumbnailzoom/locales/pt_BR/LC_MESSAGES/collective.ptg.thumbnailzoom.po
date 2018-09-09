@@ -3,8 +3,8 @@
 # Rafahela Bazzanella <rafahela@gmail>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: collective.plonetruegallery\n"
-"POT-Creation-Date: 2012-07-10 13:39+0000\n"
+"Project-Id-Version: collective.ptg.thumbnailzoom\n"
+"POT-Creation-Date: 2018-09-09 02:44+0000\n"
 "PO-Revision-Date: 2011-07-01 11:53-0300\n"
 "Last-Translator: Rafahela Bazzanella <rafahela@gmail.com>\n"
 "Language-Team: TcheZope.org <tchezope@yahoogroups.com>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Language-Code: pt-br\n"
 "Language-Name: Brazilian Portuguese\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.thumbnailzoom\n"
 
 #. Default: "Number of thumbs before a forced new row (use a high number if you dont want this)"
 #: ./__init__.py:12
@@ -41,4 +41,3 @@ msgstr ""
 #: ./__init__.py:22
 msgid "label_thumbnaizoom_effectduration"
 msgstr ""
-

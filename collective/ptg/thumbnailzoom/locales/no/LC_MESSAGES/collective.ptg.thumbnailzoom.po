@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-07-10 13:39+0000\n"
+"Project-Id-Version: collective.ptg.thumbnailzoom VERSION\n"
+"POT-Creation-Date: 2018-09-09 02:44+0000\n"
 "PO-Revision-Date: 2009-05-17 16:14+0100\n"
 "Last-Translator: Espen Moe-Nilssen <espen@medialog.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Language-Code: no\n"
 "Language-Name: Norwegian\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.plonetruegallery\n"
+"Domain: collective.ptg.thumbnailzoom\n"
 
 #. Default: "Number of thumbs before a forced new row (use a high number if you dont want this)"
 #: ./__init__.py:12
@@ -38,4 +38,3 @@ msgstr ""
 #: ./__init__.py:22
 msgid "label_thumbnaizoom_effectduration"
 msgstr ""
-

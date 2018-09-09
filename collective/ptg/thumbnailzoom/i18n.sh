@@ -3,7 +3,7 @@
 # This script must be executed from the folder it's located in
 # i18ndude should be available in current $PATH
 
-I18N_DOMAIN="collective.ptg.thumbnailzoon"
+I18N_DOMAIN="collective.ptg.thumbnailzoom"
 
 
 i18ndude rebuild-pot --pot locales/${I18N_DOMAIN}.pot --create ${I18N_DOMAIN} --merge locales/manual.pot ./
