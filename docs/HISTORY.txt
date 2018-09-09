@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.5.1 (unreleased)
+----------------------
+
+- Nothing changed yet.
+
+
 1.0.5 (2012-10-29)
 ------------------
 - small fix to try to fix issue on Webkit browsers (Safari) [espenmn]
@@ -11,10 +17,12 @@ Changelog
 
 - added norwegian translation
 
+
 1.0.3 (2012-07-24)
 ------------------
 
 - add translations
+
 
 1.0 (2012-07-04)
 ----------------
